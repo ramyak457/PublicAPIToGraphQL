@@ -9,12 +9,25 @@
       "VaccinationAPI/1.0.0": {
         "dependencies": {
           "GraphQL": "8.2.1",
+          "GraphQL.Client": "6.1.0",
           "GraphQL.Server.Transports.AspNetCore": "8.1.0",
           "GraphQL.Server.Ui.Altair": "8.1.0",
-          "Swashbuckle.AspNetCore": "6.4.0"
+          "Swashbuckle.AspNetCore": "6.4.0",
+          "GraphiQL": "2.0.0"
         },
         "runtime": {
           "VaccinationAPI.dll": {}
+        }
+      },
+      "GraphiQL/2.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Embedded": "3.1.1"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/GraphiQL.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
         }
       },
       "GraphQL/8.2.1": {
@@ -38,6 +51,41 @@
         }
       },
       "GraphQL.Analyzers/8.2.1": {},
+      "GraphQL.Client/6.1.0": {
+        "dependencies": {
+          "GraphQL.Client.Abstractions": "6.1.0",
+          "GraphQL.Client.Abstractions.Websocket": "6.1.0",
+          "System.Reactive": "6.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/GraphQL.Client.dll": {
+            "assemblyVersion": "6.1.0.0",
+            "fileVersion": "6.1.0.0"
+          }
+        }
+      },
+      "GraphQL.Client.Abstractions/6.1.0": {
+        "dependencies": {
+          "GraphQL.Primitives": "6.1.0"
+        },
+        "runtime": {
+          "lib/net8.0/GraphQL.Client.Abstractions.dll": {
+            "assemblyVersion": "6.1.0.0",
+            "fileVersion": "6.1.0.0"
+          }
+        }
+      },
+      "GraphQL.Client.Abstractions.Websocket/6.1.0": {
+        "dependencies": {
+          "GraphQL.Client.Abstractions": "6.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/GraphQL.Client.Abstractions.Websocket.dll": {
+            "assemblyVersion": "6.1.0.0",
+            "fileVersion": "6.1.0.0"
+          }
+        }
+      },
       "GraphQL.MicrosoftDI/8.2.1": {
         "dependencies": {
           "GraphQL": "8.2.1",
@@ -47,6 +95,14 @@
           "lib/net5.0/GraphQL.MicrosoftDI.dll": {
             "assemblyVersion": "8.2.1.0",
             "fileVersion": "8.2.1.0"
+          }
+        }
+      },
+      "GraphQL.Primitives/6.1.0": {
+        "runtime": {
+          "lib/net8.0/GraphQL.Primitives.dll": {
+            "assemblyVersion": "6.1.0.0",
+            "fileVersion": "6.1.0.0"
           }
         }
       },
@@ -83,17 +139,23 @@
       },
       "Microsoft.Extensions.ApiDescription.Server/6.0.5": {},
       "Microsoft.Extensions.DependencyInjection.Abstractions/2.0.0": {},
+      "Microsoft.Extensions.FileProviders.Abstractions/3.1.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "3.1.1"
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Embedded/3.1.1": {
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Abstractions": "3.1.1"
+        }
+      },
       "Microsoft.Extensions.Options/2.0.0": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0",
-          "Microsoft.Extensions.Primitives": "2.0.0"
+          "Microsoft.Extensions.Primitives": "3.1.1"
         }
       },
-      "Microsoft.Extensions.Primitives/2.0.0": {
-        "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "4.4.0"
-        }
-      },
+      "Microsoft.Extensions.Primitives/3.1.1": {},
       "Microsoft.OpenApi/1.2.3": {
         "runtime": {
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {
@@ -140,7 +202,14 @@
           }
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/4.4.0": {}
+      "System.Reactive/6.0.0": {
+        "runtime": {
+          "lib/net6.0/System.Reactive.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.1"
+          }
+        }
+      }
     }
   },
   "libraries": {
@@ -148,6 +217,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "GraphiQL/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wUUzFiZrXZWfxO6EwrgPJrPG4RhHHRl4COZlRdQ7tfdRNgldalqYWQlsISgwBMdaoLVXi5looSP7AgJ8mT6CQQ==",
+      "path": "graphiql/2.0.0",
+      "hashPath": "graphiql.2.0.0.nupkg.sha512"
     },
     "GraphQL/8.2.1": {
       "type": "package",
@@ -170,12 +246,40 @@
       "path": "graphql.analyzers/8.2.1",
       "hashPath": "graphql.analyzers.8.2.1.nupkg.sha512"
     },
+    "GraphQL.Client/6.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oKliAxtNuZDMxO9079mjSbwA0YwhjXBzVnVPuNZ3HI4OllO++CcOLT30l90mM/fxCAMaa8GU4ZYMwD9YjLkyiw==",
+      "path": "graphql.client/6.1.0",
+      "hashPath": "graphql.client.6.1.0.nupkg.sha512"
+    },
+    "GraphQL.Client.Abstractions/6.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Za31wjKLEeROZYJmp0Lmj/TLQ1Yw6x6QM0JHABcuyMC3OSopr34ufayrtdxtbL1a3129FTVFKOFC0hcooSQoJQ==",
+      "path": "graphql.client.abstractions/6.1.0",
+      "hashPath": "graphql.client.abstractions.6.1.0.nupkg.sha512"
+    },
+    "GraphQL.Client.Abstractions.Websocket/6.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PjdG3q4MzPsa5NiBOBhuIRMRTo59der5bFmX2r1gSS3RIjytwpooxF2RffFCBh16sqbwuH1/dllDcNG+EJt1qA==",
+      "path": "graphql.client.abstractions.websocket/6.1.0",
+      "hashPath": "graphql.client.abstractions.websocket.6.1.0.nupkg.sha512"
+    },
     "GraphQL.MicrosoftDI/8.2.1": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-4CU1K7+HEYc35vaWDf3FadUCaBuIMkeOqB7m88uOAmz3ZcreWwJsmkEAV8+fmO/BOP5qdyXBvcqRCp78EMnwpg==",
       "path": "graphql.microsoftdi/8.2.1",
       "hashPath": "graphql.microsoftdi.8.2.1.nupkg.sha512"
+    },
+    "GraphQL.Primitives/6.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-L8yQ70Wd9p8hMJvnmpgyZfr2R6Q7S0/lPyEBI1tacJa5XzsoJSVtHdmfsMaHyufwk03hlUsBXgNerAs66kxHdA==",
+      "path": "graphql.primitives/6.1.0",
+      "hashPath": "graphql.primitives.6.1.0.nupkg.sha512"
     },
     "GraphQL.Server.Transports.AspNetCore/8.1.0": {
       "type": "package",
@@ -212,6 +316,20 @@
       "path": "microsoft.extensions.dependencyinjection.abstractions/2.0.0",
       "hashPath": "microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512"
     },
+    "Microsoft.Extensions.FileProviders.Abstractions/3.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-V9WqFEKiUygbsNB3JUMUUJAoTlDxNqBwfybZTF7RbFCgbooFNyCscBOdiciomA785wiRoX/Uy/WIea9wzPBPgQ==",
+      "path": "microsoft.extensions.fileproviders.abstractions/3.1.1",
+      "hashPath": "microsoft.extensions.fileproviders.abstractions.3.1.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileProviders.Embedded/3.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+yygkjo94EkMggtsBkj/W3/OR/QTXrP+iGSrz3MkJJsd/lRJ3PrENeEkOowfqCAKg/U0AMJroAqI7U4g7i/+9w==",
+      "path": "microsoft.extensions.fileproviders.embedded/3.1.1",
+      "hashPath": "microsoft.extensions.fileproviders.embedded.3.1.1.nupkg.sha512"
+    },
     "Microsoft.Extensions.Options/2.0.0": {
       "type": "package",
       "serviceable": true,
@@ -219,12 +337,12 @@
       "path": "microsoft.extensions.options/2.0.0",
       "hashPath": "microsoft.extensions.options.2.0.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.Primitives/2.0.0": {
+    "Microsoft.Extensions.Primitives/3.1.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ukg53qNlqTrK38WA30b5qhw0GD7y3jdI9PHHASjdKyTcBHTevFM2o23tyk3pWCgAV27Bbkm+CPQ2zUe1ZOuYSA==",
-      "path": "microsoft.extensions.primitives/2.0.0",
-      "hashPath": "microsoft.extensions.primitives.2.0.0.nupkg.sha512"
+      "sha512": "sha512-tC5Eo5DbJA+NgiIw26R5c97N02tFvtfqstUxqb/4qXPLXI2IAIWSMUkh/1c9Gw59TT9hNkLwlmLErSPlHgyJVQ==",
+      "path": "microsoft.extensions.primitives/3.1.1",
+      "hashPath": "microsoft.extensions.primitives.3.1.1.nupkg.sha512"
     },
     "Microsoft.OpenApi/1.2.3": {
       "type": "package",
@@ -261,12 +379,12 @@
       "path": "swashbuckle.aspnetcore.swaggerui/6.4.0",
       "hashPath": "swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
     },
-    "System.Runtime.CompilerServices.Unsafe/4.4.0": {
+    "System.Reactive/6.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-9dLLuBxr5GNmOfl2jSMcsHuteEg32BEfUotmmUkmZjpR3RpVHE8YQwt0ow3p6prwA1ME8WqDVZqrr8z6H8G+Kw==",
-      "path": "system.runtime.compilerservices.unsafe/4.4.0",
-      "hashPath": "system.runtime.compilerservices.unsafe.4.4.0.nupkg.sha512"
+      "sha512": "sha512-31kfaW4ZupZzPsI5PVe77VhnvFF55qgma7KZr/E0iFTs6fmdhhG8j0mgEx620iLTey1EynOkEfnyTjtNEpJzGw==",
+      "path": "system.reactive/6.0.0",
+      "hashPath": "system.reactive.6.0.0.nupkg.sha512"
     }
   }
 }

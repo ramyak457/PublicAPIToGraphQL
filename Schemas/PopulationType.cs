@@ -7,10 +7,10 @@ namespace VaccinationAPI.Schemas
     {
         public PopulationType()
         {
-            Field(x => x.StateName);
-            Field(x => x.Total);
-            Field(x=> x.YoungGroup);
-            Field(x=> x.SeniorGroup);
+            Field(x => x.StateName).Description("The name of the state.");
+            Field(x => x.Total).Description("Total population.");
+            Field(x => x.YoungGroup).Description("Population in age group 18 to 59.");
+            Field(x => x.SeniorGroup).Description("Population in age group 60 and above.");
         }
     }
 }
