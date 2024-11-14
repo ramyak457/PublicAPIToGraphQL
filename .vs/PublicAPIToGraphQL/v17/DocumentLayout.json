@@ -1,0 +1,564 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\VaccinationPublicAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|PublicAPIToGraphQL.csproj|c:\\vaccinationpublicapi\\query\\provincequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|PublicAPIToGraphQL.csproj|solutionrelative:query\\provincequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|PublicAPIToGraphQL.csproj|c:\\vaccinationpublicapi\\query\\canadaholidayquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|PublicAPIToGraphQL.csproj|solutionrelative:query\\canadaholidayquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|VaccinationAPI.csproj|c:\\vaccinationpublicapi\\provincerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|VaccinationAPI.csproj|solutionrelative:provincerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|PublicAPIToGraphQL.csproj|c:\\vaccinationpublicapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|PublicAPIToGraphQL.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|PublicAPIToGraphQL.csproj|c:\\vaccinationpublicapi\\schemas\\provinces\\provinceschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|PublicAPIToGraphQL.csproj|solutionrelative:schemas\\provinces\\provinceschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|VaccinationAPI.csproj|c:\\vaccinationpublicapi\\controllers\\provincecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|VaccinationAPI.csproj|solutionrelative:controllers\\provincecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|PublicAPIToGraphQL.csproj|c:\\vaccinationpublicapi\\schemas\\holiday\\canadaholidayschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|PublicAPIToGraphQL.csproj|solutionrelative:schemas\\holiday\\canadaholidayschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|PublicAPIToGraphQL.csproj|c:\\vaccinationpublicapi\\schemas\\provinces\\canadaprovinceslisttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|PublicAPIToGraphQL.csproj|solutionrelative:schemas\\provinces\\canadaprovinceslisttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|VaccinationAPI.csproj|c:\\vaccinationpublicapi\\viewmodels\\provinces\\canadaprovinceslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|VaccinationAPI.csproj|solutionrelative:viewmodels\\provinces\\canadaprovinceslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|PublicAPIToGraphQL.csproj|c:\\vaccinationpublicapi\\schemas\\provinces\\canadaprovincestype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|PublicAPIToGraphQL.csproj|solutionrelative:schemas\\provinces\\canadaprovincestype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|VaccinationAPI.csproj|c:\\vaccinationpublicapi\\viewmodels\\provinces\\canadaprovinces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|VaccinationAPI.csproj|solutionrelative:viewmodels\\provinces\\canadaprovinces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|VaccinationAPI.csproj|c:\\vaccinationpublicapi\\viewmodels\\provinces\\provincedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|VaccinationAPI.csproj|solutionrelative:viewmodels\\provinces\\provincedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|PublicAPIToGraphQL.csproj|c:\\vaccinationpublicapi\\schemas\\provinces\\provincedatatype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|PublicAPIToGraphQL.csproj|solutionrelative:schemas\\provinces\\provincedatatype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|PublicAPIToGraphQL.csproj|c:\\vaccinationpublicapi\\schemas\\provinces\\provinceholidaystype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|PublicAPIToGraphQL.csproj|solutionrelative:schemas\\provinces\\provinceholidaystype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|PublicAPIToGraphQL.csproj|c:\\vaccinationpublicapi\\viewmodels\\provinces\\provinceholidays.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|PublicAPIToGraphQL.csproj|solutionrelative:viewmodels\\provinces\\provinceholidays.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|PublicAPIToGraphQL.csproj|c:\\vaccinationpublicapi\\schemas\\holiday\\provinceinfotype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|PublicAPIToGraphQL.csproj|solutionrelative:schemas\\holiday\\provinceinfotype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|PublicAPIToGraphQL.csproj|c:\\vaccinationpublicapi\\schemas\\holiday\\holidayinfotype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|PublicAPIToGraphQL.csproj|solutionrelative:schemas\\holiday\\holidayinfotype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|VaccinationAPI.csproj|c:\\vaccinationpublicapi\\canadaholidaysrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|VaccinationAPI.csproj|solutionrelative:canadaholidaysrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|PublicAPIToGraphQL.csproj|c:\\vaccinationpublicapi\\viewmodels\\holidays\\canadaholidayslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|PublicAPIToGraphQL.csproj|solutionrelative:viewmodels\\holidays\\canadaholidayslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|VaccinationAPI.csproj|c:\\vaccinationpublicapi\\viewmodels\\holidays\\canadaholidays.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|VaccinationAPI.csproj|solutionrelative:viewmodels\\holidays\\canadaholidays.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|PublicAPIToGraphQL.csproj|c:\\vaccinationpublicapi\\viewmodels\\population\\populationinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|PublicAPIToGraphQL.csproj|solutionrelative:viewmodels\\population\\populationinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|VaccinationAPI.csproj|c:\\vaccinationpublicapi\\viewmodels\\holidays\\holidayinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|VaccinationAPI.csproj|solutionrelative:viewmodels\\holidays\\holidayinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|PublicAPIToGraphQL.csproj|c:\\vaccinationpublicapi\\controllers\\canadaholidayscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|PublicAPIToGraphQL.csproj|solutionrelative:controllers\\canadaholidayscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|VaccinationAPI.csproj|c:\\vaccinationpublicapi\\query\\populationquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|VaccinationAPI.csproj|solutionrelative:query\\populationquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|PublicAPIToGraphQL.csproj|c:\\vaccinationpublicapi\\schemas\\population\\populationtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|PublicAPIToGraphQL.csproj|solutionrelative:schemas\\population\\populationtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|PublicAPIToGraphQL.csproj|c:\\vaccinationpublicapi\\schemas\\population\\populationschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|PublicAPIToGraphQL.csproj|solutionrelative:schemas\\population\\populationschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|VaccinationAPI.csproj|c:\\vaccinationpublicapi\\viewmodels\\holidays\\provinceinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|VaccinationAPI.csproj|solutionrelative:viewmodels\\holidays\\provinceinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|VaccinationAPI.csproj|c:\\vaccinationpublicapi\\populationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|VaccinationAPI.csproj|solutionrelative:populationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|PublicAPIToGraphQL.csproj|c:\\vaccinationpublicapi\\publicapitographql.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|PublicAPIToGraphQL.csproj|solutionrelative:publicapitographql.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|VaccinationAPI.csproj|c:\\vaccinationpublicapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|VaccinationAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|VaccinationAPI.csproj|c:\\vaccinationpublicapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|VaccinationAPI.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|VaccinationAPI.csproj|c:\\vaccinationpublicapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{94F875C3-12FD-4B5A-BA64-A858CF7D713E}|VaccinationAPI.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProvinceController.cs",
+              "DocumentMoniker": "C:\\VaccinationPublicAPI\\Controllers\\ProvinceController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProvinceController.cs",
+              "ToolTip": "C:\\VaccinationPublicAPI\\Controllers\\ProvinceController.cs",
+              "RelativeToolTip": "Controllers\\ProvinceController.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABoAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T20:27:38.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\VaccinationPublicAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\VaccinationPublicAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAAACgAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T23:51:08.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CanadaProvincesList.cs",
+              "DocumentMoniker": "C:\\VaccinationPublicAPI\\ViewModels\\Provinces\\CanadaProvincesList.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Provinces\\CanadaProvincesList.cs",
+              "ToolTip": "C:\\VaccinationPublicAPI\\ViewModels\\Provinces\\CanadaProvincesList.cs",
+              "RelativeToolTip": "ViewModels\\Provinces\\CanadaProvincesList.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T22:15:34.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CanadaProvincesType.cs",
+              "DocumentMoniker": "C:\\VaccinationPublicAPI\\Schemas\\Provinces\\CanadaProvincesType.cs",
+              "RelativeDocumentMoniker": "Schemas\\Provinces\\CanadaProvincesType.cs",
+              "ToolTip": "C:\\VaccinationPublicAPI\\Schemas\\Provinces\\CanadaProvincesType.cs",
+              "RelativeToolTip": "Schemas\\Provinces\\CanadaProvincesType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T00:50:21.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CanadaProvinces.cs",
+              "DocumentMoniker": "C:\\VaccinationPublicAPI\\ViewModels\\Provinces\\CanadaProvinces.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Provinces\\CanadaProvinces.cs",
+              "ToolTip": "C:\\VaccinationPublicAPI\\ViewModels\\Provinces\\CanadaProvinces.cs",
+              "RelativeToolTip": "ViewModels\\Provinces\\CanadaProvinces.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T22:15:10.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProvinceRepository.cs",
+              "DocumentMoniker": "C:\\VaccinationPublicAPI\\ProvinceRepository.cs",
+              "RelativeDocumentMoniker": "ProvinceRepository.cs",
+              "ToolTip": "C:\\VaccinationPublicAPI\\ProvinceRepository.cs",
+              "RelativeToolTip": "ProvinceRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T20:33:09.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProvinceQuery.cs",
+              "DocumentMoniker": "C:\\VaccinationPublicAPI\\Query\\ProvinceQuery.cs",
+              "RelativeDocumentMoniker": "Query\\ProvinceQuery.cs",
+              "ToolTip": "C:\\VaccinationPublicAPI\\Query\\ProvinceQuery.cs",
+              "RelativeToolTip": "Query\\ProvinceQuery.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwA8AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T01:06:29.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CanadaHolidayQuery.cs",
+              "DocumentMoniker": "C:\\VaccinationPublicAPI\\Query\\CanadaHolidayQuery.cs",
+              "RelativeDocumentMoniker": "Query\\CanadaHolidayQuery.cs",
+              "ToolTip": "C:\\VaccinationPublicAPI\\Query\\CanadaHolidayQuery.cs",
+              "RelativeToolTip": "Query\\CanadaHolidayQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T22:55:57.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CanadaProvincesListType.cs",
+              "DocumentMoniker": "C:\\VaccinationPublicAPI\\Schemas\\Provinces\\CanadaProvincesListType.cs",
+              "RelativeDocumentMoniker": "Schemas\\Provinces\\CanadaProvincesListType.cs",
+              "ToolTip": "C:\\VaccinationPublicAPI\\Schemas\\Provinces\\CanadaProvincesListType.cs",
+              "RelativeToolTip": "Schemas\\Provinces\\CanadaProvincesListType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T00:50:37.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProvinceSchema.cs",
+              "DocumentMoniker": "C:\\VaccinationPublicAPI\\Schemas\\Provinces\\ProvinceSchema.cs",
+              "RelativeDocumentMoniker": "Schemas\\Provinces\\ProvinceSchema.cs",
+              "ToolTip": "C:\\VaccinationPublicAPI\\Schemas\\Provinces\\ProvinceSchema.cs",
+              "RelativeToolTip": "Schemas\\Provinces\\ProvinceSchema.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T01:05:40.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CanadaHolidaySchema.cs",
+              "DocumentMoniker": "C:\\VaccinationPublicAPI\\Schemas\\Holiday\\CanadaHolidaySchema.cs",
+              "RelativeDocumentMoniker": "Schemas\\Holiday\\CanadaHolidaySchema.cs",
+              "ToolTip": "C:\\VaccinationPublicAPI\\Schemas\\Holiday\\CanadaHolidaySchema.cs",
+              "RelativeToolTip": "Schemas\\Holiday\\CanadaHolidaySchema.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T22:54:02.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProvinceData.cs",
+              "DocumentMoniker": "C:\\VaccinationPublicAPI\\ViewModels\\Provinces\\ProvinceData.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Provinces\\ProvinceData.cs",
+              "ToolTip": "C:\\VaccinationPublicAPI\\ViewModels\\Provinces\\ProvinceData.cs",
+              "RelativeToolTip": "ViewModels\\Provinces\\ProvinceData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBMAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T22:15:53.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProvinceDataType.cs",
+              "DocumentMoniker": "C:\\VaccinationPublicAPI\\Schemas\\Provinces\\ProvinceDataType.cs",
+              "RelativeDocumentMoniker": "Schemas\\Provinces\\ProvinceDataType.cs",
+              "ToolTip": "C:\\VaccinationPublicAPI\\Schemas\\Provinces\\ProvinceDataType.cs",
+              "RelativeToolTip": "Schemas\\Provinces\\ProvinceDataType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T00:50:50.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProvinceHolidaysType.cs",
+              "DocumentMoniker": "C:\\VaccinationPublicAPI\\Schemas\\Provinces\\ProvinceHolidaysType.cs",
+              "RelativeDocumentMoniker": "Schemas\\Provinces\\ProvinceHolidaysType.cs",
+              "ToolTip": "C:\\VaccinationPublicAPI\\Schemas\\Provinces\\ProvinceHolidaysType.cs",
+              "RelativeToolTip": "Schemas\\Provinces\\ProvinceHolidaysType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAUAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T00:51:06.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProvinceHolidays.cs",
+              "DocumentMoniker": "C:\\VaccinationPublicAPI\\ViewModels\\Provinces\\ProvinceHolidays.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Provinces\\ProvinceHolidays.cs",
+              "ToolTip": "C:\\VaccinationPublicAPI\\ViewModels\\Provinces\\ProvinceHolidays.cs",
+              "RelativeToolTip": "ViewModels\\Provinces\\ProvinceHolidays.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T00:51:11.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProvinceInfoType.cs",
+              "DocumentMoniker": "C:\\VaccinationPublicAPI\\Schemas\\Holiday\\ProvinceInfoType.cs",
+              "RelativeDocumentMoniker": "Schemas\\Holiday\\ProvinceInfoType.cs",
+              "ToolTip": "C:\\VaccinationPublicAPI\\Schemas\\Holiday\\ProvinceInfoType.cs",
+              "RelativeToolTip": "Schemas\\Holiday\\ProvinceInfoType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T22:22:17.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "HolidayInfoType.cs",
+              "DocumentMoniker": "C:\\VaccinationPublicAPI\\Schemas\\Holiday\\HolidayInfoType.cs",
+              "RelativeDocumentMoniker": "Schemas\\Holiday\\HolidayInfoType.cs",
+              "ToolTip": "C:\\VaccinationPublicAPI\\Schemas\\Holiday\\HolidayInfoType.cs",
+              "RelativeToolTip": "Schemas\\Holiday\\HolidayInfoType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBMAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T22:21:57.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CanadaHolidaysRepository.cs",
+              "DocumentMoniker": "C:\\VaccinationPublicAPI\\CanadaHolidaysRepository.cs",
+              "RelativeDocumentMoniker": "CanadaHolidaysRepository.cs",
+              "ToolTip": "C:\\VaccinationPublicAPI\\CanadaHolidaysRepository.cs",
+              "RelativeToolTip": "CanadaHolidaysRepository.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAD4vzIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T18:46:16.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CanadaHolidays.cs",
+              "DocumentMoniker": "C:\\VaccinationPublicAPI\\ViewModels\\Holidays\\CanadaHolidays.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Holidays\\CanadaHolidays.cs",
+              "ToolTip": "C:\\VaccinationPublicAPI\\ViewModels\\Holidays\\CanadaHolidays.cs",
+              "RelativeToolTip": "ViewModels\\Holidays\\CanadaHolidays.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T18:30:26.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PopulationInfo.cs",
+              "DocumentMoniker": "C:\\VaccinationPublicAPI\\ViewModels\\Population\\PopulationInfo.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Population\\PopulationInfo.cs",
+              "ToolTip": "C:\\VaccinationPublicAPI\\ViewModels\\Population\\PopulationInfo.cs",
+              "RelativeToolTip": "ViewModels\\Population\\PopulationInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T00:15:28.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CanadaHolidaysList.cs",
+              "DocumentMoniker": "C:\\VaccinationPublicAPI\\ViewModels\\Holidays\\CanadaHolidaysList.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Holidays\\CanadaHolidaysList.cs",
+              "ToolTip": "C:\\VaccinationPublicAPI\\ViewModels\\Holidays\\CanadaHolidaysList.cs",
+              "RelativeToolTip": "ViewModels\\Holidays\\CanadaHolidaysList.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T00:12:40.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "HolidayInfo.cs",
+              "DocumentMoniker": "C:\\VaccinationPublicAPI\\ViewModels\\Holidays\\HolidayInfo.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Holidays\\HolidayInfo.cs",
+              "ToolTip": "C:\\VaccinationPublicAPI\\ViewModels\\Holidays\\HolidayInfo.cs",
+              "RelativeToolTip": "ViewModels\\Holidays\\HolidayInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T18:32:00.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PopulationQuery.cs",
+              "DocumentMoniker": "C:\\VaccinationPublicAPI\\Query\\PopulationQuery.cs",
+              "RelativeDocumentMoniker": "Query\\PopulationQuery.cs",
+              "ToolTip": "C:\\VaccinationPublicAPI\\Query\\PopulationQuery.cs",
+              "RelativeToolTip": "Query\\PopulationQuery.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAgwA8AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T22:16:46.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CanadaHolidaysController.cs",
+              "DocumentMoniker": "C:\\VaccinationPublicAPI\\Controllers\\CanadaHolidaysController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CanadaHolidaysController.cs",
+              "ToolTip": "C:\\VaccinationPublicAPI\\Controllers\\CanadaHolidaysController.cs",
+              "RelativeToolTip": "Controllers\\CanadaHolidaysController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAIAywBkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T23:13:52.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "PopulationSchema.cs",
+              "DocumentMoniker": "C:\\VaccinationPublicAPI\\Schemas\\Population\\PopulationSchema.cs",
+              "RelativeDocumentMoniker": "Schemas\\Population\\PopulationSchema.cs",
+              "ToolTip": "C:\\VaccinationPublicAPI\\Schemas\\Population\\PopulationSchema.cs",
+              "RelativeToolTip": "Schemas\\Population\\PopulationSchema.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAewAoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T23:33:10.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PopulationType.cs",
+              "DocumentMoniker": "C:\\VaccinationPublicAPI\\Schemas\\Population\\PopulationType.cs",
+              "RelativeDocumentMoniker": "Schemas\\Population\\PopulationType.cs",
+              "ToolTip": "C:\\VaccinationPublicAPI\\Schemas\\Population\\PopulationType.cs",
+              "RelativeToolTip": "Schemas\\Population\\PopulationType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAUAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T22:22:27.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ProvinceInfo.cs",
+              "DocumentMoniker": "C:\\VaccinationPublicAPI\\ViewModels\\Holidays\\ProvinceInfo.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Holidays\\ProvinceInfo.cs",
+              "ToolTip": "C:\\VaccinationPublicAPI\\ViewModels\\Holidays\\ProvinceInfo.cs",
+              "RelativeToolTip": "ViewModels\\Holidays\\ProvinceInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T18:37:53.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PopulationRepository.cs",
+              "DocumentMoniker": "C:\\VaccinationPublicAPI\\PopulationRepository.cs",
+              "RelativeDocumentMoniker": "PopulationRepository.cs",
+              "ToolTip": "C:\\VaccinationPublicAPI\\PopulationRepository.cs",
+              "RelativeToolTip": "PopulationRepository.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T22:12:46.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "PublicAPIToGraphQL.csproj",
+              "DocumentMoniker": "C:\\VaccinationPublicAPI\\PublicAPIToGraphQL.csproj",
+              "RelativeDocumentMoniker": "PublicAPIToGraphQL.csproj",
+              "ToolTip": "C:\\VaccinationPublicAPI\\PublicAPIToGraphQL.csproj",
+              "RelativeToolTip": "PublicAPIToGraphQL.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-13T18:45:50.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\VaccinationPublicAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\VaccinationPublicAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-07T21:18:31.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\VaccinationPublicAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\VaccinationPublicAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-12T00:32:13.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\VaccinationPublicAPI\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\VaccinationPublicAPI\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-07T21:18:36.554Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

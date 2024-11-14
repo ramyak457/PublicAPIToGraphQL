@@ -1,5 +1,5 @@
 ﻿using System;
-using VaccinationAPI.ViewModels;
+using VaccinationAPI.ViewModels.Population;
 
 namespace VaccinationAPI
 {
@@ -7,13 +7,13 @@ namespace VaccinationAPI
     {
         private readonly string url = "https://myvaccination-backend.vercel.app/api/pop";
 
-        public async Task<List<Population>> GetPopulation()
+        public async Task<List<PopulationInfo>> GetPopulation()
         {
             using (var client = new HttpClient())
             {
                 HttpResponseMessage response = await client.GetAsync(url);
                 response.EnsureSuccessStatusCode();
-                var populationList = await response.Content.ReadFromJsonAsync<List<Population>>();
+                var populationList = await response.Content.ReadFromJsonAsync<List<PopulationInfo>>();
                 return populationList;
             }
         }
@@ -22,7 +22,8 @@ namespace VaccinationAPI
         {
             using (var client = new HttpClient())
             {
-                HttpResponseMessage response = await client.GetAsync(url + stateName);
+                client.BaseAddress = new Uri(url + "/" + stateName);
+                HttpResponseMessage response = await client.GetAsync(client.BaseAddress);
                 response.EnsureSuccessStatusCode();
                 var populationByState = await response.Content.ReadFromJsonAsync<PopulationObject>();
                 return populationByState;

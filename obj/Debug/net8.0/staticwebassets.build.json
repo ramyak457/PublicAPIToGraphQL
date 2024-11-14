@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "pbItY/uGfVxfn19JEbF5nhG/FAsxMtD6h4HbIlfCQEo=",
-  "Source": "VaccinationAPI",
-  "BasePath": "_content/VaccinationAPI",
+  "Hash": "Ov+ZgwlqyCYIFXfdssTJeJwD1mk9kagE6eIjk0xEpME=",
+  "Source": "PublicAPIToGraphQL",
+  "BasePath": "_content/PublicAPIToGraphQL",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

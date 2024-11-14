@@ -1,26 +1,33 @@
 {
   "version": 2,
-  "dgSpecHash": "z/MKAnP8y9cWFCCZgIszW5euQSjyJk4DQGJrVQ2QSpc6q2SXL//qU0XsUL3ak19FSRXhQbBDof9ujwGMPClRMQ==",
+  "dgSpecHash": "qo0QOsdY+zkc9xHE4dWW0rOwGzSXG0z4RooAZmfGdzRyI4/IDyMaYEGughIQz4SS6n/qx+XIcvRnxWHF6ioaLw==",
   "success": true,
-  "projectFilePath": "C:\\VaccinationAPI\\VaccinationAPI.csproj",
+  "projectFilePath": "C:\\VaccinationPublicAPI\\PublicAPIToGraphQL.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\graphiql\\2.0.0\\graphiql.2.0.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\graphql\\8.2.1\\graphql.8.2.1.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\graphql-parser\\9.5.0\\graphql-parser.9.5.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\graphql.analyzers\\8.2.1\\graphql.analyzers.8.2.1.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\graphql.client\\6.1.0\\graphql.client.6.1.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\graphql.client.abstractions\\6.1.0\\graphql.client.abstractions.6.1.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\graphql.client.abstractions.websocket\\6.1.0\\graphql.client.abstractions.websocket.6.1.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\graphql.microsoftdi\\8.2.1\\graphql.microsoftdi.8.2.1.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\graphql.primitives\\6.1.0\\graphql.primitives.6.1.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\graphql.server.transports.aspnetcore\\8.1.0\\graphql.server.transports.aspnetcore.8.1.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\graphql.server.ui.altair\\8.1.0\\graphql.server.ui.altair.8.1.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\graphql.systemtextjson\\8.2.1\\graphql.systemtextjson.8.2.1.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.0.0\\microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\3.1.1\\microsoft.extensions.fileproviders.abstractions.3.1.1.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.fileproviders.embedded\\3.1.1\\microsoft.extensions.fileproviders.embedded.3.1.1.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.options\\2.0.0\\microsoft.extensions.options.2.0.0.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.primitives\\2.0.0\\microsoft.extensions.primitives.2.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.1\\microsoft.extensions.primitives.3.1.1.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.4.0\\system.runtime.compilerservices.unsafe.4.4.0.nupkg.sha512"
+    "C:\\Users\\User\\.nuget\\packages\\system.reactive\\6.0.0\\system.reactive.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

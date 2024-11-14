@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\VaccinationAPI\\VaccinationAPI.csproj": {}
+    "C:\\VaccinationPublicAPI\\VaccinationAPI.csproj": {}
   },
   "projects": {
-    "C:\\VaccinationAPI\\VaccinationAPI.csproj": {
+    "C:\\VaccinationPublicAPI\\VaccinationAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\VaccinationAPI\\VaccinationAPI.csproj",
+        "projectUniqueName": "C:\\VaccinationPublicAPI\\VaccinationAPI.csproj",
         "projectName": "VaccinationAPI",
-        "projectPath": "C:\\VaccinationAPI\\VaccinationAPI.csproj",
+        "projectPath": "C:\\VaccinationPublicAPI\\VaccinationAPI.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\VaccinationAPI\\obj\\",
+        "outputPath": "C:\\VaccinationPublicAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -54,6 +54,10 @@
               "target": "Package",
               "version": "[8.2.1, )"
             },
+            "GraphQL.Client": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
             "GraphQL.Server.Transports.AspNetCore": {
               "target": "Package",
               "version": "[8.1.0, )"
@@ -65,6 +69,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
+            },
+            "graphiql": {
+              "target": "Package",
+              "version": "[2.0.0, )"
             }
           },
           "imports": [

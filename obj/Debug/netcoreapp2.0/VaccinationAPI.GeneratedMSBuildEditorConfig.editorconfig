@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = VaccinationAPI
+build_property.ProjectDir = C:\VaccinationPublicAPI\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

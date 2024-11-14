@@ -1,7 +1,7 @@
 ﻿using GraphQL;
 using GraphQL.Types;
+using PublicAPIToGraphQL.Schemas.Population;
 using VaccinationAPI.Controllers;
-using VaccinationAPI.Schemas;
 using VaccinationAPI.ViewModels;
 
 namespace VaccinationAPI.Query
@@ -11,18 +11,19 @@ namespace VaccinationAPI.Query
         public PopulationQuery(PopulationRepository populationRepository)
         {
             FieldAsync<ListGraphType<PopulationType>>(
-                "population",
+                Name = "population",
                 resolve: async context => await populationRepository.GetPopulation()
             );
 
-            FieldAsync<ObjectGraphType<PopulationObject>>(
-               "populationByState",
-               arguments: new QueryArguments(new QueryArgument<StringGraphType>() { Name = "stateName" }),
-               resolve: async context => {
-                   string stateName = context.GetArgument<string>("stateName");
-                   return await populationRepository.GetPopulationByState(stateName);
-               }
-           ); 
+            FieldAsync<PopulationObjectType>(
+            "populationByState",
+            arguments: new QueryArguments(new QueryArgument<NonNullGraphType<StringGraphType>> { Name = "stateName" }),
+            resolve: async context =>
+            {
+                var stateName = context.GetArgument<string>("stateName");
+                return await populationRepository.GetPopulationByState(stateName);
+            }
+            );
         }
     }
 }
